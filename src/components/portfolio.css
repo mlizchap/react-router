@@ -1,0 +1,25 @@
+.projectContainer {
+    display: flex;
+    color: #7bf3b5;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project {
+    margin-top: 30px;
+    background-color: #263a60;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .projectContainer {
+        flex-direction: column;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

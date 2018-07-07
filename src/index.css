@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .1rem;
+  color: #263a60;
+}
+
+.backDiv {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 40px;
+  letter-spacing: .1rem;
+}
+
+.btn {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #89c8e5;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.back:hover {
+  background-color: #a8d7ec;
+}
+
+/* @media only screen and (max-width: 500px) {
+  .backDiv {
+    text-align: center;
+    margin-left: 0;
+  }
+  h1 {
+    margin-top: 50px;
+  }
+} */
