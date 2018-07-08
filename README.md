@@ -32,8 +32,8 @@
     </div>
   ```
 
-  ## link 
-  - an anchor tag, when you click on it, it uses the history object to change the url 
+## link 
+- an anchor tag, when you click on it, it uses the history object to change the url 
   ```javascript
   import {Link} from 'react-router-dom';
 
@@ -42,11 +42,11 @@
 
 ## nav link
 - similar to link, but for navigation
-```javascript
-<NavLink className="home" exact style={defaultStyle} activeStyle={active} to='/'>
-    <li >Home</li>
-</NavLink>
-```
+  ```javascript
+  <NavLink className="home" exact style={defaultStyle} activeStyle={active} to='/'>
+      <li >Home</li>
+  </NavLink>
+  ```
 ## Route Props
 1. **match**:   info about how the url matches the router
 2. **location**: location where you are now (similar to window.location)
@@ -65,11 +65,11 @@
 
 ## withRouter
 - if a component is not rendered inside of a Route component, you can use withRouter to get route props
-```javascript
-import {withRouter} from 'react-router-dom'
+  ```javascript
+  import {withRouter} from 'react-router-dom'
 
-<button onClick={() => history.push('/')}>
-```
+  <button onClick={() => history.push('/')}>
+  ```
 
 ## Route
 - to pass custom props: use `render`, else use `component`
