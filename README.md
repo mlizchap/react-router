@@ -4,7 +4,7 @@
 
 ## TOC
 - [setup](#setup)
-- [switch](#switch)
+- [Rending Components Conditionally](#switch)
 - [link](#link)
 - [nav link](#nav-link)
 
