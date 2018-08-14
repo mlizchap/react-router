@@ -6,7 +6,11 @@
 - [setup](#setup)
 - [Rending Components Conditionally](#switch)
 - [Linking Routes](#link)
-- [nav link](#nav-link)
+- [Linking the Navbar](#nav-link)
+- [Route Props](#route-props)
+- [Dynamic Routes](#url-parameters)
+- [history.push](#history-push)
+- [Route](#route)
 
 ## setup
   - `$ npm install --save react-router-dom`
@@ -69,7 +73,7 @@
     <div>Welcome {this.props.match.params.name}</div>
   ```
 
-## withRouter
+## history.push
 - if a component is not rendered inside of a Route component, you can use withRouter to get route props
   ```javascript
   import {withRouter} from 'react-router-dom'
