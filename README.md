@@ -1,6 +1,9 @@
 # React-router-app 
 
 **React Router**: a library to manage routing in your single page app (SPA)
+  - **history**: library used to parse changed URLs and pass to react-router 
+  - **browserRouter**: looks at the url to decide which components to show on the screen 
+// CHART FOR REACT ROUTER 
 
 ## setup
   - `$ npm install --save react-router-dom`
@@ -16,21 +19,34 @@
     ```
 ## switch
 - conditionally renders based on the URL 
+
   ```javascript
   import { Switch, Route } from 'react-router-dom';
 
     <div className="App">
       <Route path='/' component={Navbar} />
       <Switch>
-          <Route path='/about' component={About} />
-          <Route path='/portfolio' render={props => (
-            <Portfolio {...props} projects={projects} />
-          )} />
-          <Route path='/contact' component={Contact} />
-          <Route exact path='/:name?/' component={Home} />
+        /* routes will go here */
       </Switch>
     </div>
   ```
+
+## Route
+- a component that provides config for showing certain components depending on the URL path 
+- `path` - specifies the url path 
+- can use `component`, `render` or `children` to specify the component 
+  - using `component` - specifies a react component to be rendered depending on the `path`
+    ```javascript
+    <Route path='/' component={Home} />
+    ```
+  - using `render` - similar to component, but the value is a function that can pass down extra props
+    ```javascript
+    const projects = ["project 1", "project 2", "project 3"];
+
+    <Route path='/portfolio' render={() => (
+      <Portfolio projects={projects} />
+    )} />
+    ```
 
 ## link 
 - an anchor tag, when you click on it, it uses the history object to change the url 
