@@ -1,9 +1,19 @@
-# React-router-app 
+# React Router
 
 **React Router**: a library to manage routing in your single page app (SPA)
   - **history**: library used to parse changed URLs and pass to react-router 
   - **browserRouter**: looks at the url to decide which components to show on the screen 
 // CHART FOR REACT ROUTER 
+
+## TOC
+- [setup](#setup)
+- [Rending Components Conditionally](#switch)
+- [Linking Routes](#link)
+- [Linking the Navbar](#nav-link)
+- [Route Props](#route-props)
+- [Dynamic Routes](#url-parameters)
+- [history.push](#withrouter)
+- [Route](#route)
 
 ## setup
   - `$ npm install --save react-router-dom`
