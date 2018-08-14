@@ -5,6 +5,9 @@
   - **browserRouter**: looks at the url to decide which components to show on the screen 
 // CHART FOR REACT ROUTER 
 
+## Example:
+[Portfolio Template](https://github.com/mlizchap/portfolio-template)
+
 ## TOC
 - [setup](#setup)
 - [Rending Components Conditionally](#switch)
