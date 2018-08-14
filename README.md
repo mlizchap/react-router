@@ -1,4 +1,4 @@
-# React-router-app 
+# React Router
 
 **React Router**: a library to manage routing in your single page app (SPA)
 
