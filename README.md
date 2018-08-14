@@ -9,7 +9,7 @@
 - [Linking the Navbar](#nav-link)
 - [Route Props](#route-props)
 - [Dynamic Routes](#url-parameters)
-- [history.push](#history.push)
+- [history.push](#historypush)
 - [Route](#route)
 
 ## setup
@@ -73,7 +73,7 @@
     <div>Welcome {this.props.match.params.name}</div>
   ```
 
-## history.push
+## withRouter
 - if a component is not rendered inside of a Route component, you can use withRouter to get route props
   ```javascript
   import {withRouter} from 'react-router-dom'
