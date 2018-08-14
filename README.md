@@ -9,7 +9,7 @@
 - [Linking the Navbar](#nav-link)
 - [Route Props](#route-props)
 - [Dynamic Routes](#url-parameters)
-- [history.push](#history-push)
+- [history.push](#history.push)
 - [Route](#route)
 
 ## setup
