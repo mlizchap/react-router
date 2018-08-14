@@ -5,7 +5,7 @@
 ## TOC
 - [setup](#setup)
 - [Rending Components Conditionally](#switch)
-- [link](#link)
+- [Linking Routes](#link)
 - [nav link](#nav-link)
 
 ## setup
