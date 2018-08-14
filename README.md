@@ -4,6 +4,9 @@
 
 ## TOC
 - [setup](#setup)
+- [switch](#switch)
+- [link](#link)
+- [nav link](#nav-link)
 
 ## setup
   - `$ npm install --save react-router-dom`
