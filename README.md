@@ -2,6 +2,9 @@
 
 **React Router**: a library to manage routing in your single page app (SPA)
 
+## TOC
+- [setup](#setup)
+
 ## setup
   - `$ npm install --save react-router-dom`
   - in `index.js`:
