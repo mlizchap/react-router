@@ -96,8 +96,14 @@
 - if a component is not rendered inside of a Route component, you can use withRouter to get route props
   ```javascript
   import {withRouter} from 'react-router-dom'
-
-  <button onClick={() => history.push('/')}>
+  
+  /* ... */
+  
+  <button onClick={() => this.props.history.push('/')}>
+  
+  /* ... */
+  
+  export default withRouter(DataProvider);
   ```
 
 ## Route
