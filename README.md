@@ -18,8 +18,9 @@
 - [history.push](#withrouter)
 - [Route](#route)
 
-## setup
+## setup 
   - `$ npm install --save react-router-dom`
+  - wrap Router around the application to allow for routing 
   - in `index.js`:
     ```javascript
       import { BrowserRouter as Router } from 'react-router-dom';
@@ -32,7 +33,7 @@
     ```
 ## switch
 - conditionally renders based on the URL 
-
+- in `App.js`
   ```javascript
   import { Switch, Route } from 'react-router-dom';
 
